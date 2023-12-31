@@ -1,6 +1,6 @@
 {
   "name": "@tklein1801/next-auth-steam-strategy",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "description": "Steam strategy for next-auth",
