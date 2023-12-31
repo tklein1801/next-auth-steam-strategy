@@ -1,0 +1,55 @@
+{
+  "name": "@tklein1801/next-auth-steam-strategy",
+  "version": "0.0.7",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "description": "Steam strategy for next-auth",
+  "keywords": [
+    "next-auth",
+    "strategy",
+    "steam"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "author": "Thorben",
+  "license": "MIT",
+  "homepage": "https://github.com/tklein1801/next-auth-steam-strategy#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tklein1801/next-auth-steam-strategy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BudgetBuddyDE/next-auth-steam-strategy/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "rimraf lib && tsc",
+    "test": "echo \"Warning: no test specified\" && exit 0",
+    "format": "prettier --write .",
+    "prepublish": "npm run test"
+  },
+  "dependencies": {
+    "openid": "^2.0.10"
+  },
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^20.10.6",
+    "@types/openid": "^2.0.2",
+    "next": "^14.0.4",
+    "next-auth": "^4.24.5",
+    "openid-client": "^5.4.2",
+    "prettier": "^3.1.1",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "next": "14.0.4",
+    "next-auth": "^4.24.5",
+    "openid-client": "^5.4.2"
+  }
+}

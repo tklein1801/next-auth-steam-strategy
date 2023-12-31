@@ -1,0 +1,10 @@
+.git/
+node_modules/
+tsconfig.json
+.github/
+npm-debug.log
+jest.config.ts
+.prettierrc.js
+src/
+.DS_Store
+examples/
